@@ -1,0 +1,38 @@
+{
+  "name": "crawling-sedaily",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.1.0",
+    "connect": "^3.7.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "deepcopy": "^2.0.0",
+    "ejs": "~2.6.1",
+    "elastic-builder": "^2.7.0",
+    "elasticsearch": "^16.7.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "morgan": "~1.9.1",
+    "pm2": "^5.2.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "json-query": "^2.2.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
+  }
+}

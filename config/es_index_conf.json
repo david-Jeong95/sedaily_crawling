@@ -1,0 +1,9 @@
+{
+  "all": {
+    "index": "crawling-0003",
+    "field": {
+      "searchField": ["category.kobrick", "title.kobrick"],
+      "highlightField": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "autocomplete": {
+    "index": ".openquery-autocomplete_test",
+    "field": {
+      "searchField": [
+        "keyword.autocomplete^10",
+        "keyword.autocomplete_middle",
+        "keyword.autocomplete_reverse"
+      ],
+      "highlightField": [
+        "keyword.autocomplete",
+        "keyword.autocomplete_middle",
+        "keyword.autocomplete_reverse"
+      ]
+    }
+  },
+  "related": {
+    "index": ".openquery-related"
+  },
+  "popquery": {
+    "index": ".openquery-popquery"
+  },
+  "speller": {
+    "index": ".openquery-speller"
+  },
+  "recommend": {
+    "index": ".openquery-recommend"
+  }
+}

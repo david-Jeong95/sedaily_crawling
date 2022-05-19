@@ -1,0 +1,32 @@
+{
+  "run_mode": "local",
+  "dev": {
+    "DEBUG_LEVEL": "info",
+    "API_SERVICE_PORT": "10000",
+    "ELASTICSEARCH_SE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_RE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_TIMEOUT": 100000,
+    "LOG_MODE": "info",
+    "OPENQUERY_GATEWAY": "localhost:19200"
+  },
+  "local": {
+    "DEBUG_LEVEL": "info",
+    "API_SERVICE_PORT": "3000",
+    "ELASTICSEARCH_SE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_RE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_TIMEOUT": 100000,
+    "LOG_MODE": "info",
+    "OPENQUERY_GATEWAY": "localhost:19200"
+  },
+  "prod": {
+    "DEBUG_LEVEL": "info",
+    "API_SERVICE_PORT": "10000",
+    "ELASTICSEARCH_SE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_RE_HOST": ["localhost:9200"],
+    "ELASTICSEARCH_TIMEOUT": 100000,
+    "LOG_MODE": "info",
+    "OPENQUERY_GATEWAY": "localhost:19200",
+    "PM2_LOGROTATE_FORMAT": "YYYY-MM-DD",
+    "PM2_INSTANCE": 10
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "sedaily",
+      "script": "./app.js",
+      "watch": true,
+      "exec_mode": "cluster",
+      "instance": "max",
+      "error_file": "/Users/hyunnu/workspace/logs/sedai≈≈ly_err.log",
+      "out_file": "/Users/hyunnu/workspace/logs/sedaily.log"
+    }
+  ]
+}
